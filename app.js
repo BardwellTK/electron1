@@ -5,7 +5,7 @@ const url = require('url')
 let window = null
 
 // Wait until the app is ready
-app.once('ready', () => ({
+app.once('ready', () => {
   // Create a new window
   window = new BrowserWindow({
     // Set the initial width to 800px
@@ -14,7 +14,7 @@ app.once('ready', () => ({
     height: 600,
     // Set the default background color of the window to match the CSS
     // background color of the page, thi prevents any white flickering
-    backgroundColor: "#D6D8DC£,
+    backgroundColor: "#D6D8DC",
     // Don't show the window until it's ready, this prevents any white flickering
     show: false
   })
