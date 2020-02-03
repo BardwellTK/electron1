@@ -1,1 +1,5 @@
 Initially, I am cloning an existing electron repository by just manually rewriting the code to try to gather an understanding of the components of web development. Not that I am illiterate in web development, but, very much a beginner. After, I will continue to tinker with the app and just add things as I go along, to try and broaden my knowledge in the field.
+
+Operational, will work on more tomorrow.
+This should commit via shh?
+Okay, need to set up an ssh key, will do tomorrow.
