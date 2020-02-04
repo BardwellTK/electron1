@@ -4,3 +4,7 @@ Operational, will work on more tomorrow.
 This should commit via shh?
 Okay, need to set up an ssh key, will do tomorrow
 ssh should now be setup.
+
+
+added some new elements to the page.
+play with css / js on them next
