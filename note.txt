@@ -2,4 +2,5 @@ Initially, I am cloning an existing electron repository by just manually rewriti
 
 Operational, will work on more tomorrow.
 This should commit via shh?
-Okay, need to set up an ssh key, will do tomorrow.
+Okay, need to set up an ssh key, will do tomorrow
+ssh should now be setup.
