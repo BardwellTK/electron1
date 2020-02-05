@@ -26,25 +26,26 @@
     <!-- Username -->
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-        <h3 class="hash-heading">Username</h3>
-        <textarea rows="1" id="username" class="form-control text-input" placeholder="helloWorld"></textarea>
+        <form name ="login">
+          <h3 class="login-heading">Username:</h3>
+          <input type="text" id="username" name="username"></input><br>
+          <h3 class="login-heading">Password:</h3>
+          <input type="password" id="password" name="password"></input><br>
+          <input type="button" onclick="check(this.form)" value="Login"/>
+        </form>
       </div>
     </div>
 
-    <!-- Password -->
-    <div class="row">
-      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-        <h3 class="hash-heading">Password</h3>
-        <input type="password" id="password" name="password"></input>
-      </div>
-    </div>
-
-    <!-- Submit Button -->
-    <div class="row">
-      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-        <input type="submit" value="Sign In"></input>
-      </div>
-    </div>
+    <script language="javascript">
+      function check(form) 
+      {
+        if (form.username.value == "hello" && form.password.value == "hello") 
+        {
+          alert("YES")
+          form.username.value = ""
+        }
+      }
+    </script>
 
     <!-- Input row -->
     <div class="row">

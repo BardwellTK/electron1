@@ -17,3 +17,12 @@ html, body, .container-fluid {
   color: #575B5E;
   font-weight: normal;
 }
+
+.login-heading {
+  display: inline-block;
+  color: #575B5E;
+  font-weight: normal;
+  font-size: 20px;
+  width: 110px;
+  text-align: right;
+}
