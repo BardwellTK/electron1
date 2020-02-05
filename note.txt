@@ -8,3 +8,8 @@ ssh should now be setup.
 
 added some new elements to the page.
 play with css / js on them next
+
+plan is to remake first year project in here.
+So, a petrol station with random cars being generated and docking in the petrol station, having random vehicle types, fuel requirements, and tank percentages. They take a corresponding amount of time to fill up their tanks. They are charged for their fuel, based on type and quantity. A receipt of their purchase is then added to an exportable database.
+
+Also a login, because having the ability to set up a decent login page will prove useful to myself.
